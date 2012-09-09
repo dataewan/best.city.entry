@@ -1,0 +1,73 @@
+img{
+	width:100%;
+	z-index : -1;
+}
+
+body{
+	background-color:snow;
+	color : #1a265f;
+	font-family : "Gill Sans", sans-serif;
+}
+
+div.container{
+	padding-top: 20px;
+	background-color: snow;
+	height: 100%;
+}
+
+svg#map{
+	background : url(../img/blank.map.svg);
+	background-size : 100%;
+}
+
+div.areachart{
+	height:100%;
+	background-color:black;
+}
+
+div#citylabel{
+	width:100%;
+	font-size:20px;
+	height:20px;
+}
+
+div#scorelabel{
+	width:100%;
+	font-size:10px;
+	height:10px;
+}
+div#individualscorelabel{
+	width:100%;
+	font-size:10px;
+	height:10px;
+}
+
+circle{
+	fill : DarkSeagreen;
+	stroke : none;
+}
+
+circle.selected{
+	fill : crimson;
+}
+
+.bottompadding{
+	height:100px;
+}
+
+
+div.ratingplot{
+	height:100px;
+}
+
+rect.bar{
+	fill : DarkSeagreen;
+}
+
+rect.selected{
+	fill : crimson;
+}
+
+path{
+	fill : DarkSeagreen;
+}
